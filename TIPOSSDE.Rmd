@@ -1,0 +1,41 @@
+---
+title: "TIPOS DE VARIABLES"
+author: "AMÉRICA PALACIOS OLIVO"
+date: '2022-03-24'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Ejercicio 1
+Se van a seleccionar dos variables de datos, las que quieran y se van a describir los tipos de variables
+```{r}
+aero<-datos::aeropuertos
+dim(aero)
+str(aero)
+avi<-datos::aviones
+dim(avi)
+str(avi)
+```
+## Variables aeropuertos
+codigo_aeropuerto: **cualitativo nominal**
+nombre: **Variable cualitativo nominal**   
+latitud: **Variable cuantitativo discreto**      
+longitud:**Variable cuantitativo discreto**      
+altura: **Variable cuantitativo continuo**      
+zona_horaria:   
+horario_verano:  
+zona_horaria_iana: 
+
+## Variables aviones
+codigo_cola
+anio       
+tipo       
+fabricante 
+modelo    
+motores   
+asientos   
+velocidad  
+tipo_motor 
+
